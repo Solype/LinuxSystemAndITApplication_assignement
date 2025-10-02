@@ -1,0 +1,72 @@
+# Fichiers de configuration
+.config
+.config.old
+.menuconfig
+.oldconfig
+.auto.conf
+include/config/
+include/generated/
+Module.symvers
+modules.order
+version.h
+localversion*
+tags
+TAGS
+
+# Objets de compilation
+*.o
+*.ko
+*.a
+*.s
+*.mod
+*.cmd
+*.d
+*.gcno
+*.gcda
+
+# Répertoires de build
+*.tmp_versions/
+*.mod.c
+*.dwo
+*.dwo.*
+*.lst
+*.lzo
+*.lz4
+*.gz
+*.xz
+*.zst
+
+# Fichiers temporaires
+*~
+\#*\#
+.\#*
+*.swp
+*.swo
+*.bak
+
+# Sorties de compilation
+arch/*/boot/
+arch/*/kernel/*.d
+arch/*/kernel/*.o
+vmlinux
+vmlinuz
+bzImage
+System.map
+*.bin
+*.hex
+*.srec
+*.elf
+
+# Modules externes
+modules.builtin
+modules.builtin.modinfo
+
+# Cscope, ctags, etc.
+cscope.*
+ncscope.*
+*.pyc
+*.pyo
+*.pyd
+
+# Patchs et logs
+*.patch*
